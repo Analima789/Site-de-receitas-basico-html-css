@@ -1,0 +1,95 @@
+<!DOCTYPE html)
+<html lang="pt-br">
+ <head>
+ <meta charset="UTF-8">
+ <title>Blog de Receitas.com</title>
+ <link rel="stylesheet" type="text/css" href="estilo.CSS">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <header>
+      <center> 
+        <img src="Imagem/LOGO.png" id="logo">
+        <br>
+        <br>
+        <br>
+        <h1 id="titulo"> RECEITAS.COM </h1>
+     </center>
+    </header>
+
+  <nav>
+    <a class="nav-item" href="HOME.html">
+      <font class="nav-item-tex">HOME</font>
+    </a>
+
+    <a class="nav-item" href="RECEITAS DE SALGADO.html">
+      <font class="nav-item-tex"> RECEITAS DE SALGADOS</font>
+</a>
+     <a class="nav-item" href="RECEITAS DE DOCE.html">
+     <font class="nav-item-tex"> RECEITAS DE DOCES</font>
+</a> 
+
+     <a class="nav-item" href="SUGESTOES.html">
+       <font class="nav-item-tex"> SUGESTOES</font>
+</a>
+
+    <a class="nav-item" href="CONTATOS.html">
+      <font id="nav-item-foco"> CONTATOS</font>
+</a>
+
+  </nav>
+
+ <main>
+  <form id="form-contato">
+    <fieldset id="fieldset1">
+        <legend>
+            <center>DADOS PARA CONTATO</center>
+        </legend>
+        <label for="txtNome">Nome:</label>
+        <input id="txtNome" type="text" maxlength="70" size="66" placeholder="Digite o nome">
+        <br><br>
+        <label for="txtEmail">E-Mail:</label>
+        <input id="txtEmail" type="email" maxlength="70" size="66" placeholder="Digite o E-Mail">
+        <br><br>
+        <label for="slcMotivo">Motivo:</label>
+        <select id="slcMotivo">
+            <option>-- Selecione --</option>
+            <option>Dúvida</option>
+            <option>Reclamação</option>
+            <option>Trabalhos dísponivel</option>
+            <option>Outro</option>
+        </select>
+        <br><br>
+
+        <label for="txtComentario">Comentário:</label>
+        <textarea id="txtComentario" rows="5" cols="70" placeholder="Digite o comentário">
+        </textarea>
+        
+        <br>
+
+        <label>Deseja receber informações?</label>
+        <input id="rdoSim" type="Radio" name="rdoReceberinfo" value="1">
+        <label for="rdoSim">SIM</label>
+        <input id="rdoNao" type="Radio" name="rdoReceberinfo" value="0">
+        <label for="rdoNao">NÃO</label>
+
+        <br><br>
+        <input id="btnEnviar" type="submit" value="Enviar">
+        <input id="btnLimpar" type="reset" value="Limpar">
+    </fieldset>
+</form>
+ </main>
+ 
+ <footer>
+<br>
+<br>
+<br>
+<center> 
+  <font id="texto-rodape">2022- Desenvolvido por Ana Beatriz e Ana Laura </font>
+</center>
+    </footer>
+  </body>
+</html>
