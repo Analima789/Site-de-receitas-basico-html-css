@@ -1,2 +1,2 @@
 # Site-de-receitas-basico-html-css
-site de receitas básico html e css 
+Site de receitas básico utilizando o html, css e bootstrap 
